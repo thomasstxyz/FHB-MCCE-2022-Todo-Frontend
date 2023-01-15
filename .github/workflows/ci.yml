@@ -7,7 +7,7 @@ jobs:
       - name: Checkout repository
         uses: "actions/checkout@v2"
       - name: Setup Node-Environment
-        uses: "actions/setup-node@v2"
+        uses: "actions/setup-node@v3"
         with:
           node-version: '12'
       - name: Build optimized web application
